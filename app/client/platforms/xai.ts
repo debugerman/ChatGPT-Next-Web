@@ -86,9 +86,6 @@ export class XAIApi implements LLMApi {
       top_p: modelConfig.top_p,
     };
 
-    delete requestPayload.presence_penalty;
-    delete requestPayload.frequency_penalty;
-
     console.log("[Request] xai payload: ", requestPayload);
 
     const shouldStream = !!options.config.stream;
