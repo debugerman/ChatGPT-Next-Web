@@ -81,8 +81,8 @@ export class XAIApi implements LLMApi {
       stream: options.config.stream,
       model: modelConfig.model,
       temperature: modelConfig.temperature,
-      presence_penalty: modelConfig.presence_penalty,
-      frequency_penalty: modelConfig.frequency_penalty,
+      // presence_penalty: modelConfig.presence_penalty,
+      // frequency_penalty: modelConfig.frequency_penalty,
       top_p: modelConfig.top_p,
     };
 
