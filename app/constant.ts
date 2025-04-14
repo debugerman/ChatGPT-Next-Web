@@ -499,6 +499,7 @@ const openaiModels = [
   "o1-mini",
   "o1-preview",
   "o3-mini",
+  "gpt-4o-search-preview",
 ];
 
 const googleModels = [
